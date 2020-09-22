@@ -1,0 +1,31 @@
+.QuestList {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #fd8355 0%, #f0576c 37%, #f79cbd 100%);
+}
+
+.QuestList h1 {
+    color: #fff;
+}
+
+.QuestList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.QuestList ul li {
+    margin-bottom: 10px;
+}
+
+.QuestList ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.QuestList ul li a:hover {
+    color: #363f54;
+} 
