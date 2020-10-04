@@ -47,7 +47,7 @@ class Auth extends Component {
     };
     try {
       const respons = await Axios.post(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDXEwEslZQnHtuB_h8KNQd4sy8dj9m1ECc",
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA4vXb2sEgTxuhrv-iAu27ftCjikTN0J6k",
         authData
       );
     } catch(e) {
@@ -63,7 +63,7 @@ class Auth extends Component {
     };
     try {
       const respons = await Axios.post(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDXEwEslZQnHtuB_h8KNQd4sy8dj9m1ECc",
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA4vXb2sEgTxuhrv-iAu27ftCjikTN0J6k",
         authData
       );
     } catch(e) {
